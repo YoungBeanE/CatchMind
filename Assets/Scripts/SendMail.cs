@@ -23,7 +23,7 @@ public class SendMail : MonoBehaviour
         //SMTP - simple 메일 전용 프로토콜(사용자의 IMAP/SMTP계정에서 사용을 허용해두어야 함)
         SmtpClient smtpServer = new SmtpClient("smtp.naver.com");
         smtpServer.Port = 587;
-        smtpServer.Credentials = new System.Net.NetworkCredential("dldudqls7733@naver.com", "spdlqj26!!") as ICredentialsByHost; //자격확인
+        smtpServer.Credentials = new System.Net.NetworkCredential("dldudqls7733@naver.com", "qlqjs") as ICredentialsByHost; //자격확인
         smtpServer.EnableSsl = true; //SSL - 교환할 데이터를 암호화하여 이용하는 통신 프로토콜(인터넷 메시지 전송의 보안을 관리하는 표준)
         ServicePointManager.ServerCertificateValidationCallback = delegate (object sender, X509Certificate certificate, X509Chain chain, SslPolicyErrors sslPolicyErrors)
         {
