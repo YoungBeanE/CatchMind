@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "472949142583",
+    "project_id": "ybappserver",
+    "storage_bucket": "ybappserver.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:472949142583:android:94ce154b2372c58609bbb2",
+        "android_client_info": {
+          "package_name": "com.YB.YBappServer"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "472949142583-9rq7efc99eilgf5n0vv1st67tu1r4fnc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyABU_ipA7YJYtKMvoO9YEarzj6_69qocpc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "472949142583-9rq7efc99eilgf5n0vv1st67tu1r4fnc.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "472949142583-3lcqj2qcb3u6um3mqt6v8rfrddvr6350.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.YB.YBappServer"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
